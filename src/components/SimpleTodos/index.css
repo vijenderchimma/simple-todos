@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.todo-content-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  margin: 30px;
+  width: 90%;
+}
+.main-heading {
+  color: #ff8542;
+  font-size: 30px;
+}
+.todos-container {
+  list-style-type: none;
+  padding: 10px;
+}

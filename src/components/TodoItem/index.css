@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.todo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.todo-description {
+  color: #000000;
+  font-size: 15px;
+  margin-right: 15px;
+  width: 75%;
+}
+.delete-btn {
+  background-color: #ffffff;
+  color: #ff0b37;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #ff0b37;
+  height: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
